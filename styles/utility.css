@@ -19,15 +19,19 @@
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
-    border: solid forestgreen;
+    /* border: solid forestgreen; */
 }
 
-.desktio-only {
+.desktop-only {
     display: none;
 }
 
 .flex {
     display: flex;
+}
+
+.items-center {
+    align-items: center;
 }
 
 .grid {
@@ -38,12 +42,16 @@
     gap: 1rem;
 }
 
+.gap-1\.5 {
+    gap: 1.5rem;
+}
+
 @media (width >= 80em) {
     .container {
         --max-width: 80rem;
     }
 
-    .desktio-only {
+    .desktop-only {
         display: initial;
     }
 }
