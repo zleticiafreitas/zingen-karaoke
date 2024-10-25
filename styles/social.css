@@ -9,34 +9,34 @@ a.social {
     background-clip: initial;
 
     &[aria-label="tiktok"] {
-    --bg-img: url(../assets/svg/tiktok.svg);
+        --bg-img: url(../assets/icons/tiktok.svg);
 
-    &:hover {
-        --bg-img: url(../assets/svg/tiktok-hover.svg);
-    }
+        &:hover {
+            --bg-img: url(../assets/icons/tiktok-hover.svg);
+        }
     }
 
     &[aria-label="instagram"] {
-    --bg-img: url(../assets/svg/instagram.svg);
+        --bg-img: url(../assets/icons/instagram.svg);
 
-    &:hover {
-        --bg-img: url(../assets/svg/instagram-hover.svg);
-    }
+        &:hover {
+            --bg-img: url(../assets/icons/instagram-hover.svg);
+        }
     }
 
     &[aria-label="twitter"] {
-    --bg-img: url(../assets/svg/twitter.svg);
+        --bg-img: url(../assets/icons/twitter.svg);
 
-    &:hover {
-        --bg-img: url(../assets/svg/twitter-hover.svg);
-    }
+        &:hover {
+            --bg-img: url(../assets/icons/twitter-hover.svg);
+        }
     }
 
     &[aria-label="discord"] {
-    --bg-img: url(../assets/svg/discord.svg);
+        --bg-img: url(../assets/icons/discord.svg);
 
-    &:hover {
-        --bg-img: url(../assets/svg/discord-hover.svg);
-    }
+        &:hover {
+            --bg-img: url(../assets/icons/discord-hover.svg);
+        }
     }
 }
